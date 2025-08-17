@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="color"] {
+    margin-right: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #f2f2f2;
+}
+
+.break-row td {
+    background-color: #ddd;
+    font-weight: bold;
+    text-align: center;
+}
+
+td[rowspan="2"] {
+    vertical-align: middle;
+}
+
+#exportButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Enhanced dark mode in styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+.form-container {
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="color"] {
+    margin-right: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.dark-mode input[type="text"],
+.dark-mode input[type="color"] {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+    border: 1px solid #555;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.dark-mode button {
+    background-color: #444;
+    color: #e0e0e0;
+}
+
+.dark-mode button:hover {
+    background-color: #666;
+}
+
+.table,
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+
+.dark-mode th, .dark-mode td {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+thead th {
+    background-color: #f2f2f2;
+}
+
+.dark-mode .table th,
+.dark-mode thead th {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.break-row td {
+    background-color: #ddd;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dark-mode .break-row td {
+    background-color: #444;
+    color: #ffcc00;
+}
+
+td[rowspan="2"] {
+    vertical-align: middle;
+}
+
+#exportButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.dark-mode-toggle {
+    margin: 10px;
+}
+
