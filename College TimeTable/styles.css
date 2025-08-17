@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"], input[type="color"] {
+    margin-right: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #f2f2f2;
+}
+
+.break-row td {
+    background-color: #ddd;
+    font-weight: bold;
+    text-align: center;
+}
+
+td[rowspan="2"] {
+    vertical-align: middle;
+}
+
+#exportButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.dark-mode .table th {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.dark-mode-toggle {
+    margin: 10px;
+}
