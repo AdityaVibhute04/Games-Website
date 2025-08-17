@@ -1,0 +1,5 @@
+1. Automation of player2 ---PENDING
+2. UI element improvement ---Maybe Never
+3. On-line co-op ---Hmmmmmmmmmmmmm
+4. Font improvement ---DONE
+5. Flickering correction (Used ChatGPT) ---DONE
